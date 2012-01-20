@@ -1,0 +1,11 @@
+Stack Validate:
+Here input is string like 4321098765.
+after input the string converting that string into a int array.
+after that calling a isValid() function.
+Here I am actually push and pop the value in stack.
+np(next position) is set to zero.
+first I am pushing the value 0 to first value of string(d[index]) after that 
+chacking with top of stack and current value from input string if it 
+match then pop the elemnt till it match and if not match then it means number is 
+greater then top of stack den pushing value again and then pop again if there is no pop or push 
+it means invalid sequence and set achieve=flase.

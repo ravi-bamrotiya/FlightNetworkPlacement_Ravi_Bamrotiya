@@ -1,0 +1,7 @@
+Game of Elimination:
+Here input is Number of kids(m) and random number(n).
+after that I am creating a boolean array test of size m and set it all the element as a true.
+after that rotating a loop n times and increament a loop variable if test[index] is true 
+and at the end of loop set a test[index]=false it means that index is eliminate from the game 
+and decreasing m by 1 and continue this till m>1 and when index reach to number of kids(m) 
+at that time set a index=0 to start again from first kids..
